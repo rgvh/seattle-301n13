@@ -8,10 +8,16 @@
   <p><a href="/">Home</a></p>
 
   <ul>
+    <% arrayOfItems.forEach(item => { %>
+    <li><%= item %></li>
+    <% }); %>
+  </ul>
+
+  <!-- <ul>
     <li>Apples</li>
     <li>Pears</li>
     <li>Bananas</li>
-  </ul>
+  </ul> -->
 </body>
 
 </html>
